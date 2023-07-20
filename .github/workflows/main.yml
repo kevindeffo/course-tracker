@@ -4,8 +4,8 @@ name: Build and deploy Spring boot app
 #when to trigger my workflow
 on:
   push:
-    - main
-
+    branches:
+      - main
 
 jobs:
   build-deploy:
